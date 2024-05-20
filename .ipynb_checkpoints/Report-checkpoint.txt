@@ -1,0 +1,21 @@
+In this survey of D&D character data (from Kaggle.com, link provided in Jupyter Notebook), I am starting with a couple of hypotheses. First, I assume that the most common race will be Human, and the most common class will be Fighter. I also believe that the highest stat over all characters will be Dexterity, and that the most common casting stat (ability score that determines spellcasting ability) will be Wisdom.
+
+As a D&D player, Dungeon Master, and overall fan, I have quite of bit of prior knowledge to bring to this analysis. Depending on what I find, I may have some ideas on how to recommend a clearer balance for the game (if, for example, Dexterity is overwhelmingly preferred over other ability score stats) or how to shore up potential "dry areas" (aspects of the game that show little activity).
+
+After extensive analysis and cleaning of the character data, I found the following items:
+
+Most common race: Human
+Most common class: Fighter
+Average ability score: 13
+Highest average ability: Dex (14.5, vs 14.3 for Con)
+Most common casting stat: Int
+Most common tier of play: Tier 1 (Levels 1-4)
+Most characters at Level 1
+
+Some of my original hypotheses proved true (Humans, Fighters, and Dexterity are the most popular of their respective aspects of creating a D&D character), but I was also surprised by the overwhelming prevalence of Intelligence as a casting stat over Wisdom. The primary reason for that is, I believe, a quirk in the character creation process. Perhaps Int is a "default" casting stat, unless otherwise specified; the data are not clear on this. I discovered a few other items of interest during my analysis. First of all, there is a smaller swath of multiclass characters than I anticipated. Second, there is an enormous variety of races chosen for D&D characters, so much so that Human is only the largest minority at less than 21%. Third, there was a surprisingly high AC (armor class) stat for one character in particular, a 3rd-level Sorcerer (relatively low level), whose AC was 30, higher than most epic-level (17+) characters. I am not sure the reason for this, as the data do not give enough detail to explain it. At this point in my analysis, I ignored Armor Class as a useful metric to analyze characters.
+
+My recommendations for further developing the game are as follows. First, the fact that Humans are the most common race, but only make up 21% of the total character pool suggests that there may be too many options for race choices. Having that many choices burdens both player and dungeon master with more options than they can reasonably deal with. I recommend simplifying the race options for character creation, to only a dozen at most. Too many more than that becomes needlessly challenging to balance and still provide a unique flair for a character.
+
+Second, I recommend (specifically for this character creation platform) that the first-level character creation process be as user-friendly as possible. While the data suggest that this may be the case already, amplifying that aspect of the experience will result in increased traffic and usage of the platform. As long as the first-level character creation process is smooth, this guarantees that the platform will see lots of usage and interaction.
+
+Finally, depending on the intended purpose of the platform, the mechanics of high-level character creation could be made even more user-friendly. As a D&D player, I know that creating a high-level character can be a tricky process, which is the most likely reason so few high-level characters are created using this platform. There are two options, given this data: one, craft the level-up process carefully in order to boost usage of the platform for higher-level characters; or two, cap character creation at a lower level (whether 5, 6, 7, or 10, to maintain most of the current users).
